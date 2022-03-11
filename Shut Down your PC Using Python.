@@ -1,0 +1,9 @@
+"""Welcome to ProgramsKart"""
+#This is Raushan
+import os
+print("Enter time (in seconds) in which you want to ShutDown : ")
+sec = int(input())
+str1 = "shutdown /s /t "
+str2 = sec 
+str = str1 + str2
+os.system(str)
